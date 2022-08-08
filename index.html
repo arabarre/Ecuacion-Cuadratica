@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Ecuación cuadrática</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+	<section class="section-title">
+		<div class="title">
+			<h1 class="presentacion">Resolución de una Ecuación cuadrática</h1>
+			<img src="./images/EC2.png">
+		</div>
+	</section>
+
+	<section class="resolucion">
+		<div class="resolucion--interno">
+			<div>
+				<form>
+					<p>Ingrese a: <input type="number" id="Na" /></p>
+					<p>Ingrese b: <input type="number" id="Nb" /></p>
+					<p>Ingrese c: <input type="number" id="Nc" /></p>
+					<p><input type="button" value="Calcular" id="calcular" /></p>
+				</form>
+				<h3>Solución</h3>
+				<div>
+					<p>Caso: <span id="caso"></span></p>
+					<p>S_x1: <span id="solx1"></span> </p>
+					<p>S_x2: <span id="solx2"></span> </p>
+					<h4>Vértice</h4>
+					<p>Coord x: <span id="coordXv"></span></p>
+					<p>Coord y: <span id="coordYv"></span> </p>
+				</div>
+			</div>
+			<canvas id="grafico" width="600" height="480"></canvas>
+		</div>
+	</section>
+	<br />
+	<footer>
+		<div>© José L. Araujo B. - 2022</div>
+		<div class="imgfooter">
+			<img id="linkedinf" src='./images/linkedin.png' />
+			<a href="https://www.linkedin.com/in/jose-araujo-barrera" target="_blank">Linkedin</a>
+		</div>
+		<div class="imgfooter">
+			<img id="gitf" src='./images/gitB.png' />
+			<a href="https://github.com/arabarre?tab=repositories" target="_blank"> github</a>
+		</div>
+		<div class=" imgfooter">
+			<img id="correof" src='./images/correo-electronico.png' />
+			<a href="mailto:arabarre52@gmail.com"> arabarre52@gmail.com</a>
+		</div>
+	</footer>
+	<script src="./pru/apps.js"></script>
+</body>
+
+</html>
